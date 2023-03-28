@@ -1,5 +1,5 @@
 # Using Chat GPT-4
-Add your secret key to the `secret.env` file.
+Edit `TODO_secret.env` to have your secret key, then rename it to `secret.env`.
 
 Create a new folder that copies the `example` folder. Name it whatever you'd like to work on (`your_folder`).
 
@@ -7,7 +7,7 @@ Put your prompt into `prompt.txt`. Use curly braces ("{}") to indicate where you
 
 Then, add the files you'd like to be put in your prompt into `your_folder/files`.
 
-Then, go to `main.py` and look find the line that says `prompt = file_to_string("files/prompt.txt").format(file_to_string("files/code.txt"))` Replace the `file_to_string("files/code.txt"), file_to_string("files/my_thoughts.txt")` part with your files that you want to be put in, or delete the `.format` entirely if you just want to do a regular prompt.
+Then, go to `main.py` and look find the line that says `prompt = file_to_string("files/prompt.txt").format(file_to_string("files/code.txt"), file_to_string("files/my_thoughts.txt"))` Replace the `file_to_string("files/code.txt"), file_to_string("files/my_thoughts.txt")` part with your files that you want to be put in, or delete the `.format` entirely if you just want to do a regular prompt.
 
 Then, you can run `main.py`. It will save a cost file and all the messages that were sent to the chat.
 
