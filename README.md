@@ -17,4 +17,4 @@ To reply, create a `files/reply.txt` and paste the `output.txt` file into it. Th
 
 Now, when, you run `main.py` again, the  model should reply to your most recent comment with the context of all the previous methods.
 
-At current prices, the default example should cost less than $0.01 to run.
+At current (March 27th, 2023) prices, the default example should cost less than $0.01 to run.
